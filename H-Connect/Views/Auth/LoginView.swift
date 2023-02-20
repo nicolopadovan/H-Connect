@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginView: View<LoginViewModel> {
+class LoginView: View<LoginViewModel> { 
     
     let emailLabel = UILabel(text: "Email", font: .systemFont(ofSize: 15, weight: .regular), textColor: .black, textAlignment: .left, numberOfLines: 1)
     let passwordLabel = UILabel(text: "Password", font: .systemFont(ofSize: 15, weight: .regular), textColor: .black, textAlignment: .left, numberOfLines: 1)
