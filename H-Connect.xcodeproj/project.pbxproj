@@ -7,15 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03111DB6299FC0A9009C8DB7 /* FirebaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DB5299FC0A9009C8DB7 /* FirebaseError.swift */; };
+		03111DB8299FCAC8009C8DB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03111DB7299FCAC8009C8DB7 /* GoogleService-Info.plist */; };
+		03111DC7299FD552009C8DB7 /* UITextField+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DBE299FD552009C8DB7 /* UITextField+Tools.swift */; };
+		03111DC8299FD552009C8DB7 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DBF299FD552009C8DB7 /* UITextView.swift */; };
+		03111DC9299FD552009C8DB7 /* UIView+Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC0299FD552009C8DB7 /* UIView+Stacking.swift */; };
+		03111DCA299FD552009C8DB7 /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC1299FD552009C8DB7 /* IndentedTextField.swift */; };
+		03111DCB299FD552009C8DB7 /* AspectFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC2299FD552009C8DB7 /* AspectFitImageView.swift */; };
+		03111DCC299FD552009C8DB7 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC3299FD552009C8DB7 /* UILabel.swift */; };
+		03111DCD299FD552009C8DB7 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC4299FD552009C8DB7 /* UIButton.swift */; };
+		03111DCE299FD552009C8DB7 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC5299FD552009C8DB7 /* UIStackView.swift */; };
+		03111DCF299FD552009C8DB7 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DC6299FD552009C8DB7 /* UIView+Layout.swift */; };
+		03111DD1299FD57C009C8DB7 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DD0299FD57C009C8DB7 /* UIColor+Helpers.swift */; };
+		03111DD3299FD5CE009C8DB7 /* AnchoredConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03111DD2299FD5CE009C8DB7 /* AnchoredConstraints.swift */; };
+		031CF02929A2C3B00030F4C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031CF02829A2C3B00030F4C8 /* LaunchScreen.storyboard */; };
+		031CF03029A2CAC70030F4C8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF02F29A2CAC70030F4C8 /* MainViewModel.swift */; };
+		031CF03229A2CC140030F4C8 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03129A2CC140030F4C8 /* MainViewCell.swift */; };
+		031CF03429A2CF970030F4C8 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03329A2CF970030F4C8 /* UIImage+Helpers.swift */; };
+		031CF03629A2DF3B0030F4C8 /* UIRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03529A2DF3B0030F4C8 /* UIRoundedButton.swift */; };
+		031CF03929A2E1A90030F4C8 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03829A2E1A90030F4C8 /* LoginCoordinator.swift */; };
+		031CF03B29A2E1AE0030F4C8 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03A29A2E1AE0030F4C8 /* BaseCoordinator.swift */; };
+		031CF03D29A2E22B0030F4C8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03C29A2E22B0030F4C8 /* View.swift */; };
+		031CF03F29A2F6290030F4C8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF03E29A2F6290030F4C8 /* MainCoordinator.swift */; };
+		031CF04129A304900030F4C8 /* MainDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF04029A304900030F4C8 /* MainDetailedView.swift */; };
+		031CF04329A304A30030F4C8 /* MainDetailedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF04229A304A30030F4C8 /* MainDetailedViewModel.swift */; };
+		031CF04529A304B80030F4C8 /* MainDetailedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF04429A304B80030F4C8 /* MainDetailedCoordinator.swift */; };
+		031CF04829A31B1F0030F4C8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031CF04729A31B1F0030F4C8 /* Profile.swift */; };
+		0337473C29A0EDF90054B933 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337473B29A0EDF90054B933 /* LoginViewModel.swift */; };
+		0337473E29A0EE1D0054B933 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337473D29A0EE1D0054B933 /* ViewModel.swift */; };
+		036FA706299F896600FF31D3 /* FirestorePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036FA705299F896600FF31D3 /* FirestorePath.swift */; };
+		036FA709299F8EAA00FF31D3 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA708299F8EAA00FF31D3 /* FirebaseAnalyticsSwift */; };
+		036FA70B299F8EAA00FF31D3 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA70A299F8EAA00FF31D3 /* FirebaseAppCheck */; };
+		036FA70D299F8EAA00FF31D3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA70C299F8EAA00FF31D3 /* FirebaseAuth */; };
+		036FA70F299F8EAA00FF31D3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA70E299F8EAA00FF31D3 /* FirebaseFirestoreSwift */; };
+		036FA711299F8EAA00FF31D3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA710299F8EAA00FF31D3 /* FirebaseFunctions */; };
+		036FA713299F8EAA00FF31D3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA712299F8EAA00FF31D3 /* FirebaseMessaging */; };
+		036FA715299F8EAA00FF31D3 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 036FA714299F8EAA00FF31D3 /* FirebaseRemoteConfigSwift */; };
+		036FA717299F978300FF31D3 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036FA716299F978300FF31D3 /* JSONHelper.swift */; };
 		039CC4D7299F827400BE45C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4D6299F827400BE45C0 /* AppDelegate.swift */; };
 		039CC4D9299F827400BE45C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4D8299F827400BE45C0 /* SceneDelegate.swift */; };
-		039CC4DB299F827400BE45C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4DA299F827400BE45C0 /* ViewController.swift */; };
-		039CC4DE299F827400BE45C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039CC4DC299F827400BE45C0 /* Main.storyboard */; };
+		039CC4DB299F827400BE45C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4DA299F827400BE45C0 /* LoginView.swift */; };
 		039CC4E0299F827500BE45C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039CC4DF299F827500BE45C0 /* Assets.xcassets */; };
-		039CC4E3299F827500BE45C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039CC4E1299F827500BE45C0 /* LaunchScreen.storyboard */; };
 		039CC4EE299F827500BE45C0 /* H_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4ED299F827500BE45C0 /* H_ConnectTests.swift */; };
 		039CC4F8299F827500BE45C0 /* H_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4F7299F827500BE45C0 /* H_ConnectUITests.swift */; };
 		039CC4FA299F827500BE45C0 /* H_ConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC4F9299F827500BE45C0 /* H_ConnectUITestsLaunchTests.swift */; };
+		039CC508299F830E00BE45C0 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039CC507299F830E00BE45C0 /* FirestoreManager.swift */; };
+		03AEF624299FBD23009593E6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEF623299FBD23009593E6 /* AuthManager.swift */; };
+		03DA44E329A052360021CEB1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA44E229A052360021CEB1 /* MainView.swift */; };
+		03DA44E529A054890021CEB1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA44E429A054890021CEB1 /* DetailViewController.swift */; };
+		A804AB076DC152DDBACAC6A0 /* Pods_H_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F43B04E9166B167AF492EB /* Pods_H_Connect.framework */; };
+		E419E846E5D8185CBF6C34D1 /* Pods_H_Connect_H_ConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF02C070B4DB449D70E4E51 /* Pods_H_Connect_H_ConnectUITests.framework */; };
+		F184BDC484D83802A6E317D8 /* Pods_H_ConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C78A0800E5AD13CC9414AFA /* Pods_H_ConnectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +78,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03111DB5299FC0A9009C8DB7 /* FirebaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseError.swift; sourceTree = "<group>"; };
+		03111DB7299FCAC8009C8DB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		03111DBE299FD552009C8DB7 /* UITextField+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Tools.swift"; sourceTree = "<group>"; };
+		03111DBF299FD552009C8DB7 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		03111DC0299FD552009C8DB7 /* UIView+Stacking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Stacking.swift"; sourceTree = "<group>"; };
+		03111DC1299FD552009C8DB7 /* IndentedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndentedTextField.swift; sourceTree = "<group>"; };
+		03111DC2299FD552009C8DB7 /* AspectFitImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspectFitImageView.swift; sourceTree = "<group>"; };
+		03111DC3299FD552009C8DB7 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		03111DC4299FD552009C8DB7 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		03111DC5299FD552009C8DB7 /* UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		03111DC6299FD552009C8DB7 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		03111DD0299FD57C009C8DB7 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		03111DD2299FD5CE009C8DB7 /* AnchoredConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchoredConstraints.swift; sourceTree = "<group>"; };
+		031CF02829A2C3B00030F4C8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031CF02F29A2CAC70030F4C8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		031CF03129A2CC140030F4C8 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		031CF03329A2CF970030F4C8 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+		031CF03529A2DF3B0030F4C8 /* UIRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedButton.swift; sourceTree = "<group>"; };
+		031CF03829A2E1A90030F4C8 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		031CF03A29A2E1AE0030F4C8 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		031CF03C29A2E22B0030F4C8 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		031CF03E29A2F6290030F4C8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		031CF04029A304900030F4C8 /* MainDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailedView.swift; sourceTree = "<group>"; };
+		031CF04229A304A30030F4C8 /* MainDetailedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailedViewModel.swift; sourceTree = "<group>"; };
+		031CF04429A304B80030F4C8 /* MainDetailedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDetailedCoordinator.swift; sourceTree = "<group>"; };
+		031CF04729A31B1F0030F4C8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0337473B29A0EDF90054B933 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0337473D29A0EE1D0054B933 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		036FA705299F896600FF31D3 /* FirestorePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestorePath.swift; sourceTree = "<group>"; };
+		036FA716299F978300FF31D3 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		039CC4D3299F827400BE45C0 /* H-Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H-Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039CC4D6299F827400BE45C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		039CC4D8299F827400BE45C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		039CC4DA299F827400BE45C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		039CC4DD299F827400BE45C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		039CC4DA299F827400BE45C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		039CC4DF299F827500BE45C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		039CC4E2299F827500BE45C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		039CC4E4299F827500BE45C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039CC4E9299F827500BE45C0 /* H-ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H-ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039CC4ED299F827500BE45C0 /* H_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_ConnectTests.swift; sourceTree = "<group>"; };
 		039CC4F3299F827500BE45C0 /* H-ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H-ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039CC4F7299F827500BE45C0 /* H_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_ConnectUITests.swift; sourceTree = "<group>"; };
 		039CC4F9299F827500BE45C0 /* H_ConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_ConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		039CC507299F830E00BE45C0 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		03AEF623299FBD23009593E6 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		03DA44E229A052360021CEB1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		03DA44E429A054890021CEB1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1C78A0800E5AD13CC9414AFA /* Pods_H_ConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_H_ConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF02C070B4DB449D70E4E51 /* Pods_H_Connect_H_ConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_H_Connect_H_ConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4246E891286F7C6025F3A71E /* Pods-H-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-Connect.debug.xcconfig"; path = "Target Support Files/Pods-H-Connect/Pods-H-Connect.debug.xcconfig"; sourceTree = "<group>"; };
+		42F5925529E55A9FFE436B96 /* Pods-H-Connect-H-ConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-Connect-H-ConnectUITests.release.xcconfig"; path = "Target Support Files/Pods-H-Connect-H-ConnectUITests/Pods-H-Connect-H-ConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86F0E7A5501B4D86E3BCB4D8 /* Pods-H-Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-Connect.release.xcconfig"; path = "Target Support Files/Pods-H-Connect/Pods-H-Connect.release.xcconfig"; sourceTree = "<group>"; };
+		9A601DFD0DCC317E818D93AC /* Pods-H-Connect-H-ConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-Connect-H-ConnectUITests.debug.xcconfig"; path = "Target Support Files/Pods-H-Connect-H-ConnectUITests/Pods-H-Connect-H-ConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BF0A2DC2BFD181F70B8231F /* Pods-H-ConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-ConnectTests.release.xcconfig"; path = "Target Support Files/Pods-H-ConnectTests/Pods-H-ConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C003C638A85BA246CC9F9877 /* Pods-H-ConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H-ConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-H-ConnectTests/Pods-H-ConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F43B04E9166B167AF492EB /* Pods_H_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_H_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +139,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036FA713299F8EAA00FF31D3 /* FirebaseMessaging in Frameworks */,
+				036FA70B299F8EAA00FF31D3 /* FirebaseAppCheck in Frameworks */,
+				036FA70D299F8EAA00FF31D3 /* FirebaseAuth in Frameworks */,
+				036FA715299F8EAA00FF31D3 /* FirebaseRemoteConfigSwift in Frameworks */,
+				036FA711299F8EAA00FF31D3 /* FirebaseFunctions in Frameworks */,
+				036FA709299F8EAA00FF31D3 /* FirebaseAnalyticsSwift in Frameworks */,
+				036FA70F299F8EAA00FF31D3 /* FirebaseFirestoreSwift in Frameworks */,
+				A804AB076DC152DDBACAC6A0 /* Pods_H_Connect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F184BDC484D83802A6E317D8 /* Pods_H_ConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +162,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E419E846E5D8185CBF6C34D1 /* Pods_H_Connect_H_ConnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03111DB9299FD3DC009C8DB7 /* Custom Packages */ = {
+			isa = PBXGroup;
+			children = (
+				036FA716299F978300FF31D3 /* JSONHelper.swift */,
+				03111DC2299FD552009C8DB7 /* AspectFitImageView.swift */,
+				03111DC1299FD552009C8DB7 /* IndentedTextField.swift */,
+				03111DC4299FD552009C8DB7 /* UIButton.swift */,
+				031CF03529A2DF3B0030F4C8 /* UIRoundedButton.swift */,
+				03111DC3299FD552009C8DB7 /* UILabel.swift */,
+				03111DD2299FD5CE009C8DB7 /* AnchoredConstraints.swift */,
+				03111DC5299FD552009C8DB7 /* UIStackView.swift */,
+				03111DBE299FD552009C8DB7 /* UITextField+Tools.swift */,
+				03111DBF299FD552009C8DB7 /* UITextView.swift */,
+				03111DC6299FD552009C8DB7 /* UIView+Layout.swift */,
+				03111DC0299FD552009C8DB7 /* UIView+Stacking.swift */,
+				03111DD0299FD57C009C8DB7 /* UIColor+Helpers.swift */,
+				031CF03329A2CF970030F4C8 /* UIImage+Helpers.swift */,
+			);
+			path = "Custom Packages";
+			sourceTree = "<group>";
+		};
+		031CF02C29A2CA8D0030F4C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				031CF03C29A2E22B0030F4C8 /* View.swift */,
+				031CF02D29A2CA990030F4C8 /* Auth */,
+				031CF02E29A2CAA00030F4C8 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		031CF02D29A2CA990030F4C8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				039CC4DA299F827400BE45C0 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		031CF02E29A2CAA00030F4C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03DA44E229A052360021CEB1 /* MainView.swift */,
+				031CF03129A2CC140030F4C8 /* MainViewCell.swift */,
+				031CF04029A304900030F4C8 /* MainDetailedView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		031CF03729A2E1980030F4C8 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				031CF03A29A2E1AE0030F4C8 /* BaseCoordinator.swift */,
+				031CF03829A2E1A90030F4C8 /* LoginCoordinator.swift */,
+				031CF03E29A2F6290030F4C8 /* MainCoordinator.swift */,
+				031CF04429A304B80030F4C8 /* MainDetailedCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		031CF04629A31B050030F4C8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				03111DB5299FC0A9009C8DB7 /* FirebaseError.swift */,
+				03AEF623299FBD23009593E6 /* AuthManager.swift */,
+				039CC507299F830E00BE45C0 /* FirestoreManager.swift */,
+				036FA705299F896600FF31D3 /* FirestorePath.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0337473A29A0EDE10054B933 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0337473D29A0EE1D0054B933 /* ViewModel.swift */,
+				0337473B29A0EDF90054B933 /* LoginViewModel.swift */,
+				031CF02F29A2CAC70030F4C8 /* MainViewModel.swift */,
+				031CF04229A304A30030F4C8 /* MainDetailedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		039CC4CA299F827400BE45C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +258,8 @@
 				039CC4EC299F827500BE45C0 /* H-ConnectTests */,
 				039CC4F6299F827500BE45C0 /* H-ConnectUITests */,
 				039CC4D4299F827400BE45C0 /* Products */,
+				600768B644C9859A45ACD5DE /* Pods */,
+				57C5EEDEE4AB6984D2D572C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +276,19 @@
 		039CC4D5299F827400BE45C0 /* H-Connect */ = {
 			isa = PBXGroup;
 			children = (
+				03111DB9299FD3DC009C8DB7 /* Custom Packages */,
+				031CF04629A31B050030F4C8 /* Managers */,
+				039CC506299F830200BE45C0 /* Models */,
 				039CC4D6299F827400BE45C0 /* AppDelegate.swift */,
 				039CC4D8299F827400BE45C0 /* SceneDelegate.swift */,
-				039CC4DA299F827400BE45C0 /* ViewController.swift */,
-				039CC4DC299F827400BE45C0 /* Main.storyboard */,
+				031CF03729A2E1980030F4C8 /* Coordinators */,
+				0337473A29A0EDE10054B933 /* ViewModels */,
+				031CF02C29A2CA8D0030F4C8 /* Views */,
+				03DA44E429A054890021CEB1 /* DetailViewController.swift */,
+				031CF02829A2C3B00030F4C8 /* LaunchScreen.storyboard */,
 				039CC4DF299F827500BE45C0 /* Assets.xcassets */,
-				039CC4E1299F827500BE45C0 /* LaunchScreen.storyboard */,
 				039CC4E4299F827500BE45C0 /* Info.plist */,
+				03111DB7299FCAC8009C8DB7 /* GoogleService-Info.plist */,
 			);
 			path = "H-Connect";
 			sourceTree = "<group>";
@@ -127,6 +310,37 @@
 			path = "H-ConnectUITests";
 			sourceTree = "<group>";
 		};
+		039CC506299F830200BE45C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				031CF04729A31B1F0030F4C8 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57C5EEDEE4AB6984D2D572C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F43B04E9166B167AF492EB /* Pods_H_Connect.framework */,
+				3DF02C070B4DB449D70E4E51 /* Pods_H_Connect_H_ConnectUITests.framework */,
+				1C78A0800E5AD13CC9414AFA /* Pods_H_ConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600768B644C9859A45ACD5DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4246E891286F7C6025F3A71E /* Pods-H-Connect.debug.xcconfig */,
+				86F0E7A5501B4D86E3BCB4D8 /* Pods-H-Connect.release.xcconfig */,
+				9A601DFD0DCC317E818D93AC /* Pods-H-Connect-H-ConnectUITests.debug.xcconfig */,
+				42F5925529E55A9FFE436B96 /* Pods-H-Connect-H-ConnectUITests.release.xcconfig */,
+				C003C638A85BA246CC9F9877 /* Pods-H-ConnectTests.debug.xcconfig */,
+				9BF0A2DC2BFD181F70B8231F /* Pods-H-ConnectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +348,26 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039CC4FD299F827500BE45C0 /* Build configuration list for PBXNativeTarget "H-Connect" */;
 			buildPhases = (
+				9DDF57AE393CF9DE1ED325E1 /* [CP] Check Pods Manifest.lock */,
 				039CC4CF299F827400BE45C0 /* Sources */,
 				039CC4D0299F827400BE45C0 /* Frameworks */,
 				039CC4D1299F827400BE45C0 /* Resources */,
+				933040AABD2362B71B990A06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "H-Connect";
+			packageProductDependencies = (
+				036FA708299F8EAA00FF31D3 /* FirebaseAnalyticsSwift */,
+				036FA70A299F8EAA00FF31D3 /* FirebaseAppCheck */,
+				036FA70C299F8EAA00FF31D3 /* FirebaseAuth */,
+				036FA70E299F8EAA00FF31D3 /* FirebaseFirestoreSwift */,
+				036FA710299F8EAA00FF31D3 /* FirebaseFunctions */,
+				036FA712299F8EAA00FF31D3 /* FirebaseMessaging */,
+				036FA714299F8EAA00FF31D3 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = "H-Connect";
 			productReference = 039CC4D3299F827400BE45C0 /* H-Connect.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +376,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039CC500299F827500BE45C0 /* Build configuration list for PBXNativeTarget "H-ConnectTests" */;
 			buildPhases = (
+				A6BEDE523626DDF2E3F91E6F /* [CP] Check Pods Manifest.lock */,
 				039CC4E5299F827500BE45C0 /* Sources */,
 				039CC4E6299F827500BE45C0 /* Frameworks */,
 				039CC4E7299F827500BE45C0 /* Resources */,
@@ -169,9 +395,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039CC503299F827500BE45C0 /* Build configuration list for PBXNativeTarget "H-ConnectUITests" */;
 			buildPhases = (
+				1B6B3A234CC34D08AAD227BE /* [CP] Check Pods Manifest.lock */,
 				039CC4EF299F827500BE45C0 /* Sources */,
 				039CC4F0299F827500BE45C0 /* Frameworks */,
 				039CC4F1299F827500BE45C0 /* Resources */,
+				BB8037BF5873E6EEEA7A4B36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +443,9 @@
 				Base,
 			);
 			mainGroup = 039CC4CA299F827400BE45C0;
+			packageReferences = (
+				036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 039CC4D4299F827400BE45C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +462,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039CC4E3299F827500BE45C0 /* LaunchScreen.storyboard in Resources */,
+				031CF02929A2C3B00030F4C8 /* LaunchScreen.storyboard in Resources */,
+				03111DB8299FCAC8009C8DB7 /* GoogleService-Info.plist in Resources */,
 				039CC4E0299F827500BE45C0 /* Assets.xcassets in Resources */,
-				039CC4DE299F827400BE45C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +484,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B6B3A234CC34D08AAD227BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-H-Connect-H-ConnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933040AABD2362B71B990A06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-H-Connect/Pods-H-Connect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-H-Connect/Pods-H-Connect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-H-Connect/Pods-H-Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDF57AE393CF9DE1ED325E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-H-Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BEDE523626DDF2E3F91E6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-H-ConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8037BF5873E6EEEA7A4B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-H-Connect-H-ConnectUITests/Pods-H-Connect-H-ConnectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-H-Connect-H-ConnectUITests/Pods-H-Connect-H-ConnectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-H-Connect-H-ConnectUITests/Pods-H-Connect-H-ConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		039CC4CF299F827400BE45C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039CC4DB299F827400BE45C0 /* ViewController.swift in Sources */,
+				03111DCD299FD552009C8DB7 /* UIButton.swift in Sources */,
+				03111DCE299FD552009C8DB7 /* UIStackView.swift in Sources */,
+				031CF03D29A2E22B0030F4C8 /* View.swift in Sources */,
+				031CF03929A2E1A90030F4C8 /* LoginCoordinator.swift in Sources */,
+				0337473C29A0EDF90054B933 /* LoginViewModel.swift in Sources */,
+				03111DC7299FD552009C8DB7 /* UITextField+Tools.swift in Sources */,
+				03111DC9299FD552009C8DB7 /* UIView+Stacking.swift in Sources */,
+				03111DCA299FD552009C8DB7 /* IndentedTextField.swift in Sources */,
+				03111DC8299FD552009C8DB7 /* UITextView.swift in Sources */,
+				03DA44E529A054890021CEB1 /* DetailViewController.swift in Sources */,
+				031CF03029A2CAC70030F4C8 /* MainViewModel.swift in Sources */,
+				031CF04329A304A30030F4C8 /* MainDetailedViewModel.swift in Sources */,
+				039CC4DB299F827400BE45C0 /* LoginView.swift in Sources */,
+				031CF04529A304B80030F4C8 /* MainDetailedCoordinator.swift in Sources */,
+				03111DCC299FD552009C8DB7 /* UILabel.swift in Sources */,
+				031CF03229A2CC140030F4C8 /* MainViewCell.swift in Sources */,
+				031CF04129A304900030F4C8 /* MainDetailedView.swift in Sources */,
+				03111DB6299FC0A9009C8DB7 /* FirebaseError.swift in Sources */,
+				03AEF624299FBD23009593E6 /* AuthManager.swift in Sources */,
+				0337473E29A0EE1D0054B933 /* ViewModel.swift in Sources */,
+				031CF03429A2CF970030F4C8 /* UIImage+Helpers.swift in Sources */,
+				03111DD3299FD5CE009C8DB7 /* AnchoredConstraints.swift in Sources */,
+				031CF03B29A2E1AE0030F4C8 /* BaseCoordinator.swift in Sources */,
+				031CF03F29A2F6290030F4C8 /* MainCoordinator.swift in Sources */,
+				03111DD1299FD57C009C8DB7 /* UIColor+Helpers.swift in Sources */,
 				039CC4D7299F827400BE45C0 /* AppDelegate.swift in Sources */,
+				031CF03629A2DF3B0030F4C8 /* UIRoundedButton.swift in Sources */,
 				039CC4D9299F827400BE45C0 /* SceneDelegate.swift in Sources */,
+				036FA717299F978300FF31D3 /* JSONHelper.swift in Sources */,
+				039CC508299F830E00BE45C0 /* FirestoreManager.swift in Sources */,
+				03111DCB299FD552009C8DB7 /* AspectFitImageView.swift in Sources */,
+				031CF04829A31B1F0030F4C8 /* Profile.swift in Sources */,
+				03111DCF299FD552009C8DB7 /* UIView+Layout.swift in Sources */,
+				036FA706299F896600FF31D3 /* FirestorePath.swift in Sources */,
+				03DA44E329A052360021CEB1 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +661,6 @@
 			targetProxy = 039CC4F4299F827500BE45C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		039CC4DC299F827400BE45C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039CC4DD299F827400BE45C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		039CC4E1299F827500BE45C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				039CC4E2299F827500BE45C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		039CC4FB299F827500BE45C0 /* Debug */ = {
@@ -432,18 +779,21 @@
 		};
 		039CC4FE299F827500BE45C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4246E891286F7C6025F3A71E /* Pods-H-Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 532NRWLQ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "H-Connect/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,18 +809,21 @@
 		};
 		039CC4FF299F827500BE45C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F0E7A5501B4D86E3BCB4D8 /* Pods-H-Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 532NRWLQ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "H-Connect/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +839,7 @@
 		};
 		039CC501299F827500BE45C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C003C638A85BA246CC9F9877 /* Pods-H-ConnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +859,7 @@
 		};
 		039CC502299F827500BE45C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF0A2DC2BFD181F70B8231F /* Pods-H-ConnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +879,7 @@
 		};
 		039CC504299F827500BE45C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A601DFD0DCC317E818D93AC /* Pods-H-Connect-H-ConnectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +897,7 @@
 		};
 		039CC505299F827500BE45C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F5925529E55A9FFE436B96 /* Pods-H-Connect-H-ConnectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +953,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		036FA708299F8EAA00FF31D3 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		036FA70A299F8EAA00FF31D3 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		036FA70C299F8EAA00FF31D3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		036FA70E299F8EAA00FF31D3 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		036FA710299F8EAA00FF31D3 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		036FA712299F8EAA00FF31D3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		036FA714299F8EAA00FF31D3 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036FA707299F8EAA00FF31D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 039CC4CB299F827400BE45C0 /* Project object */;
 }
